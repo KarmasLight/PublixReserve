@@ -1,4 +1,4 @@
-package com.adrevenue.app
+package com.publixreserve.app
 
 import org.junit.Assert.*
 import org.junit.Test

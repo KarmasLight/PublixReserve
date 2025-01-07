@@ -1,24 +1,38 @@
-# PublixReserve Ad Revenue App
-
-## Project Migration
-This project has been migrated to PublixReserve from the original windsurf-project workspace.
+# Ad Revenue App
 
 ## Overview
-An Android application that allows users to earn revenue by watching advertisements. 
+An Android application that allows users to earn revenue by watching advertisements.
 
-## Key Features
+## Project Status
+[![Android CI](https://github.com/KarmasLightening/ad-revenue-app/actions/workflows/android_test.yml/badge.svg)](https://github.com/KarmasLightening/ad-revenue-app/actions/workflows/android_test.yml)
+
+## Features
 - User authentication
 - Ad watching rewards system
-- Firebase integration
 - Real-time points tracking
+- Firebase integration
 
-## Migration Notes
-- Original project location: windsurf-project/ad-revenue-app
-- Migrated to: PublixReserve/ad-revenue-app
-- Date of migration: January 2025
+## Development
+- Local Development: PublixReserve workspace
+- Synchronized with Android Studio
+- Continuous Integration via GitHub Actions
 
-## Setup and Configuration
-Refer to the CONFIGURATION.md file for detailed setup instructions.
+## Setup
+1. Clone the repository
+2. Open in Android Studio
+3. Configure Firebase credentials
+4. Set up AdMob account
 
 ## Testing
-Comprehensive testing guidelines are available in TESTING.md.
+- Local tests: `./test_report.sh`
+- Android Studio: Use built-in test runner
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch
+3. Commit changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+MIT License

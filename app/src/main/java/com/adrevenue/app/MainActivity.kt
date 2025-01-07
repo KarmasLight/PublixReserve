@@ -1,4 +1,4 @@
-package com.adrevenue.app
+package com.publixreserve.app
 
 import android.os.Bundle
 import android.widget.Button

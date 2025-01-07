@@ -4,7 +4,8 @@
 
 # Configuration
 LOCAL_PROJECT="/home/karmaslightening/CascadeProjects/PublixReserve/ad-revenue-app"
-ANDROID_STUDIO_PROJECT="/path/to/your/AndroidStudioProjects/AdRevenueApp"
+ANDROID_STUDIO_PROJECT="/home/karmaslightening/AndroidStudioProjects/AdRevenueApp"
+GITHUB_REPO="git@github.com:KarmasLightening/ad-revenue-app.git"
 
 # Ensure paths exist
 mkdir -p "$ANDROID_STUDIO_PROJECT"
@@ -25,7 +26,10 @@ ln -sf "$LOCAL_PROJECT/CONFIGURATION.md" "$ANDROID_STUDIO_PROJECT/CONFIGURATION.
 # Git configuration
 cd "$ANDROID_STUDIO_PROJECT"
 git init
-git remote add origin https://github.com/yourusername/ad-revenue-app.git
+git remote add origin "$GITHUB_REPO"
+
+# Sync with remote repository
+git fetch origin
+git branch --set-upstream-to=origin/main main
 
 echo "Project synchronized successfully!"
-echo "Remember to update the Android Studio project path in this script."

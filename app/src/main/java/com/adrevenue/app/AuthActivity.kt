@@ -1,4 +1,4 @@
-package com.adrevenue.app
+package com.publixreserve.app
 
 import android.content.Intent
 import android.os.Bundle
