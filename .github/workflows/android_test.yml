@@ -1,4 +1,4 @@
-name: Android CI
+name: PublixReserve CI
 
 on:
   push:

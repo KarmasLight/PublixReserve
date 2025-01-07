@@ -1,15 +1,15 @@
-# Ad Revenue App
+# PublixReserve
 
 ## Overview
-An Android application that allows users to earn revenue by watching advertisements.
+PublixReserve is a mobile application that revolutionizes grocery shopping and rewards management.
 
 ## Project Status
-[![Android CI](https://github.com/KarmasLightening/ad-revenue-app/actions/workflows/android_test.yml/badge.svg)](https://github.com/KarmasLightening/ad-revenue-app/actions/workflows/android_test.yml)
+[![Android CI](https://github.com/KarmasLight/PublixReserve/actions/workflows/android_test.yml/badge.svg)](https://github.com/KarmasLight/PublixReserve/actions/workflows/android_test.yml)
 
 ## Features
 - User authentication
-- Ad watching rewards system
-- Real-time points tracking
+- Grocery rewards tracking
+- Real-time points management
 - Firebase integration
 
 ## Development
@@ -21,7 +21,7 @@ An Android application that allows users to earn revenue by watching advertiseme
 1. Clone the repository
 2. Open in Android Studio
 3. Configure Firebase credentials
-4. Set up AdMob account
+4. Set up application credentials
 
 ## Testing
 - Local tests: `./test_report.sh`
